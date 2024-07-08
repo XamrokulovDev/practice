@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+}
+
+.swiper-button-prev {
+    left: 0;
+    color: #333;
+}
+
+.swiper-button-next {
+    right: 0;
+    color: #333;
+}
+
+.swiper-popular {
+    box-shadow: 0 5px 10px #6262625a;
+}
+
+.swiper-button {
+    box-shadow: 0 5px 10px #6262625a;
+}
+
+.swiper-button:hover {
+    box-shadow: 0 5px 20px #10bb887f;
+}
+
+.card_img:hover {
+    box-shadow: 0 0 15px #4f4f4f8b;
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+    .container {
+        width: 90vw;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .container{
+        width: 90vw;
+    }
+}
